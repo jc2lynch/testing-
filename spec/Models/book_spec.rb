@@ -11,5 +11,6 @@ RSpec.describe Book, :type => :model do
  	expect(FactoryGirl.build(:book)).to be_valid
  end
 
- it "should have a page_count"
+ it "should have a page_count that is more that 10 pages"
+ 
 end
